@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* main - alphabet
-*
-* Return: Always 0.
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int i, j;
@@ -21,7 +21,7 @@ putchar((j / 10) + 48);
 putchar((j % 10) + 48);
 if (i != 98 || j != 99)
 {
-putchar(',');	
+putchar(',');
 putchar(' ');
 }
 }
