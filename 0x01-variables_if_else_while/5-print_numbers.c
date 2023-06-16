@@ -10,7 +10,7 @@ int main(void)
 char n;
 for (n = 0; n <= 10; n++)
 {
-putchar(n);
+putchar('0' + digit);
 }
 putchar('\n');
 return (0);
