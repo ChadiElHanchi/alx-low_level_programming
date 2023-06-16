@@ -8,12 +8,17 @@
 int main(void)
 {
 int i;
+int separator = 0;
 putchar('0');
 for (i = 1; i < 10; i++)
 {
+if (separator)
+{
 putchar(',');
 putchar(' ');
+}
 putchar('0' + i);
+separator = 1;
 }
 putchar('\n');
 return (0);
