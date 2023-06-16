@@ -12,7 +12,7 @@ for (n = 0; n <= 9; n++)
 {
 putchar(n);
 }
-for (digit = 'a'; digit <= 'f'; digit++)
+for (n = 'a'; n <= 'f'; n++)
 {
 putchar(n);
 }
