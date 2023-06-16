@@ -20,6 +20,5 @@ putchar(' ');
 putchar('0' + i);
 separator = 1;
 }
-putchar('\n');
 return (0);
 }
