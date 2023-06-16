@@ -7,18 +7,17 @@
 */
 int main(void)
 {
-int i;
-int separator = 0;
-putchar('0');
-for (i = 1; i < 10; i++)
+int n;
+for (n = 48; n < 58; n++)
 {
-if (separator)
+putchar(n);
+if (n != 57)
 {
 putchar(',');
 putchar(' ');
 }
-putchar('0' + i);
-separator = 1;
 }
+putchar('\n');
 return (0);
 }
+
