@@ -2,14 +2,12 @@
 /**
 * main - fibonacci <3
 *
- * Purpose - 
- *
- * Return:  (Success)
- */
-
-
-	int main(void)
-	{
+* Purpose - 
+*
+* Return:  (Success)
+*/
+int main(void)
+{
 		unsigned long int i;
 		unsigned long int bef = 1;
 		unsigned long int aft = 2;
