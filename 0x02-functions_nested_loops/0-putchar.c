@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-/*
- * main: main program
+/**
+ * main - Entry point of the program
  *
-sh: 1: q: not found
+ * Return: 0 on success
  */
-
-int main()
+int main(void)
 {
-printf("_putchar");
-return 0;
+printf("_putchar\n");
+return (0);
 }
