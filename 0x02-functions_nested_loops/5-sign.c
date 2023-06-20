@@ -24,4 +24,4 @@ int print_sign(int n)
 		return (-1);
 	}
 }
-
+sh: 1: q: not found
