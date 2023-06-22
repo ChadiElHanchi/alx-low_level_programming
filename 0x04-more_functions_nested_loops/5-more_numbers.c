@@ -14,9 +14,9 @@ for (i = 0; i <= 14; i++)
 {
 if (i > 9)
 {
-_putchar((i / 10) + '0');  // Print the tens digit
+_putchar((i / 10) + '0');
 }
-_putchar((i % 10) + '0');  // Print the ones digit
+_putchar((i % 10) + '0');
 }
 _putchar('\n');
 }
