@@ -13,8 +13,10 @@ _putchar('\n');
 else
 {
 for (b = 1; b <= n; b++)
+{
 _putchar(' ');
 _putchar(92); /*is equal to '/' charc */
 _putchar('\n');
+}
 }
 }
