@@ -9,12 +9,10 @@
 void print_numbers(void)
 {
 int i = 0;
-do {
+while (i >= 0 && i <= 9)
+{
 _putchar(i + 48);
 i++;
 }
-while {
-(i >= 0 && i <= 9);
 _putchar('\n');
-}
 }
