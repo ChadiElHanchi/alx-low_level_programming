@@ -3,7 +3,7 @@
 /**
  * print_line - check the code
  *
- * Return: Always 0.
+ * @n: Number of times the character '_' should be printed
  */
 void print_line(int n)
 {
