@@ -5,15 +5,15 @@
  *
  * @size: Size of the square
  *
- * return: 0 sucess.
+ * Return: 0 sucess.
  */
-
 void print_square(int size)
 {
 if (size <= 0)
 {
 _putchar('\n');
-} else
+}
+else
 {
 int i, j;
 for (i = 0; i < size; i++)
