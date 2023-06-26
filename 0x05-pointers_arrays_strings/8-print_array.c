@@ -2,9 +2,11 @@
 
 /**
  * print_array - prints n elements of an array
+ *
  * @a: array name
- * @n: array to be printed
- * Return: a and n inputs
+ * @n: number of elements to be printed
+ *
+ * Return: None
  */
 void print_array(int *a, int n)
 {
@@ -15,7 +17,7 @@ void print_array(int *a, int n)
 		if (i != (n - 1))
 			printf("%d, ", a[i]);
 		else
-			printf("Md", a[i]);
+			printf("%d", a[i]);
 	}
 	printf("\n");
 }
