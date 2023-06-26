@@ -20,7 +20,7 @@ while (*s != '\0')
 	s++;
 }
 s--;
-for (x = counter; x > 0; x--)
+for(x = counter; x > 0; x--)
 {
 	_putchar(*s);
 	s--;
