@@ -1,14 +1,17 @@
 #include "main.h"
+
 /**
- * _atoi - coverts string to int
- * @s: string input
- * Return: coverted
+ * _atoi - Converts a string to an integer.
+ *
+ * @s: The input string.
+ *
+ * Return: The converted integer.
  */
 int _atoi(char *s)
 {
 	unsigned int num = 0;
 	int sign = 1;
-	
+
 	do {
 		if (*s == '-')
 			sign *= -1;
@@ -17,5 +20,7 @@ int _atoi(char *s)
 		else if (num > 0)
 			break;
 	} while (*s++);
+
 	return (num * sign);
 }
+
