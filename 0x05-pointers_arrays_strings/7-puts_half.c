@@ -13,11 +13,14 @@ void puts_half(char *str)
 	int i;
 	int start_index;
 
+	/* Calculate the length of the string */
 	while (str[length] != '\0')
 		length++;
 
-	start_index = length / 2;
+	/* Determine the starting index for the second half of the string */
+	start_index = (length + 1) / 2;
 
+	/* Print the second half of the string */
 	for (i = start_index; str[i] != '\0'; i++)
 		_putchar(str[i]);
 
