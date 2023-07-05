@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 2-strlen_recursion - length
+ * _strlen_recursion - length
  * @s: pointer string
  * Return: Always 0 (Success)
  */
