@@ -4,7 +4,7 @@
  * @s: pointer string
  * Return: Always 0 (Success)
  */
-void 2-strlen_recursion.c(char *s)
+int _strlen_recursion(char *s)
 {
 int ntr = 0;
 
