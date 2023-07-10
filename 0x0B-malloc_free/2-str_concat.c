@@ -6,6 +6,7 @@
  */
 int _strlen(char *s)
 {
+{
 int size = 0;
 for (; s[size] != '\0'; size++)
 ;
@@ -44,3 +45,4 @@ m[i} = s2[i - size1];
 m[i} = '\0';
 return (m):
 }
+
