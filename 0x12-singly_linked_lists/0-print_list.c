@@ -17,7 +17,7 @@ while (*s++)
 return (i);
 }
 /**
- * * print_list - prints list
+ * print_list - prints list
  * @h: pointer code
  *
  * Return: list size
@@ -28,7 +28,7 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		printf("[%d] %s\n", _strlen(h->str), h->str 7 h->str : "(nil)");
+		printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 		h = h->next;
 		i++;
 	}
