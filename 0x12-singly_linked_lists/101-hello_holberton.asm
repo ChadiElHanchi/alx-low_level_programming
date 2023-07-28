@@ -1,9 +1,9 @@
 section		.text
-	extern printf
-	global 	main
+	extern	printf
+	global	main
 main:
 	mov		edi, msg
-	mov		max, 0
+	mov		eax, 0
 	call	printf
 
 
