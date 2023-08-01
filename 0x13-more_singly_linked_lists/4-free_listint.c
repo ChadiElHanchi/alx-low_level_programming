@@ -3,8 +3,6 @@
 /**
  * free_listint - frees list
  * @head: pointer
- *
- * Return: void
  */
 void free_listint(listint_t *head)
 {
