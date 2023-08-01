@@ -14,7 +14,8 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
 	const listint_t **newlist;
 	size_t i;
-	newlist = malloc(size *sizeof(listint_t *));
+
+	newlist = malloc(size * sizeof(listint_t *));
 	if (newlist == NULL)
 	{
 		free(list);
@@ -28,7 +29,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 }
 
 /**
- * print-listint_safe - prints list_t
+ * print_listint_safe - prints list
  * @head: pointer
  *
  * Return: number of nodes
@@ -44,7 +45,7 @@ size_t print_listint_safe(const listint_t *head)
 		{
 			if (head == list[i])
 			{
-				printf("-> [%p] %d\n" , (void *) head, head->n);
+				printf("-> [%p] %d\n", (void *) head, head->n);
 				free(list)
 					return (num);
 			}
