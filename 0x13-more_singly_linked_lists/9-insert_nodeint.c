@@ -4,7 +4,7 @@
  * insert_nodeint_at_index - new node
  * @head: pointer first node
  * @idx: indx
- * @h: n value
+ * @n: n value
  *
  * Return: adress new node
  */
@@ -20,7 +20,7 @@ new_node->n = n;
 new_node->next = NULL;
 if (!idx)
 {
-	new_node->next =*head;
+	new_node->next = *head;
 	*head = new_node;
 	return (new_node);
 }
@@ -29,7 +29,7 @@ while (node)
 {
 	if (i == idx - 1)
 	{
-	new_node->next = node-next;
+	new_node->next = node->next;
 	node->next = new_node;
 	return (new_node);
 	}

@@ -6,12 +6,11 @@
  *
  * Return: void
  */
-void free_listint2(listint_t **head=
+void free_listint2(listint_t **head)
 		{
-		listint_t *node;
-		listint_t *temp;
+		listint_t *node, *temp;
 
-		if (!head)
+if (!head)
 	return;
 	node = *head;
 	while (node)
