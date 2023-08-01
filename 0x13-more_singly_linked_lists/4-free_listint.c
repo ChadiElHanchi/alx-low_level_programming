@@ -1,7 +1,7 @@
 #include "lists"
 
 /**
- * *free_listint - frees list
+ * free_listint - frees list
  * @head: pointer
  *
  * Return: void
