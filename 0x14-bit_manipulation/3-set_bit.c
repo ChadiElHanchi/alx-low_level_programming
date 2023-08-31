@@ -6,10 +6,12 @@
 * @index: bit to get
 * Return: nothing
 */
-int set_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-if (index >= sizeof(n) * 8)
-return (-1);
-return (!!(*n |= 1L << index));
+	if (index > 63)
+		return (-1);
+
+	*n = ((1UL << index) | *n);
+	return (1);
 }
 
