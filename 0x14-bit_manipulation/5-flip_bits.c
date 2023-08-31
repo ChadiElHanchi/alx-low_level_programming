@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* flip_bit - fliped to tranform one number to another
+* flip_bits - fliped to tranform one number to another
 * @n: number 1st
 * @m: 2nd
 * Return: nothing
@@ -19,4 +19,3 @@ xorval = xorval >> 1;
 }
 return (count);
 }
-
